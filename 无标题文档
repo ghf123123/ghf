@@ -1,0 +1,42 @@
+https://mynt-eye-d-sdk.readthedocs.io/zh_CN/latest/sdk/install_ros.html#ros
+
+
+
+
+
+https://blog.csdn.net/weixin_41536025/article/details/85783092
+
+
+
+ERROR: cannot launch node of type [mrobot_teleop/mrobot_teleop.py]: can't locate node [mrobot_teleop.py] in package [mrobot_teleop] 
+
+ 错误：无法启动类型为[mrobot_teleop / mrobot_teleop.py]的节点：无法找到程序包[mrobot_teleop]中的节点[mrobot_teleop.py]
+
+ 
+
+解决办法：把自己写的节点设置为可执行文件权限
+
+cd 节点根目录名（进入到你存放节点代码的目录下）
+
+chmod 777 节点代码 （把权限设置为777）
+
+ 
+
+eg：（以《ROS机器人开发实践》 胡春旭著 的代码为例）
+
+转到→ mrobot_teleop
+
+chmod 777 mrobot_teleop.py(到mrobot_teleop.py文件目录下启动终端)   (https://blog.csdn.net/DragonGirI/article/details/87900107)
+
+
+
+
+
+
+
+
+
+
+
+https://blog.csdn.net/xmy306538517/article/details/81455625     (Google Cartographer安装教程)
+
